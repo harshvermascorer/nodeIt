@@ -6,6 +6,7 @@
     "express": "^4.16.3",
     "git": "^0.1.5",
     "mongoose": "^5.2.9",
+    "nodemon": "^1.18.4",
     "npm": "^6.4.0",
     "socket.io": "^2.1.1"
   },
@@ -22,7 +23,6 @@
     "build": "node build.js",
     "deploy": "npm run build && git-directory-deploy --directory _build/"
   },
-
   "author": "Harsh Verma",
   "license": "ISC",
   "repository": {
